@@ -1,6 +1,5 @@
 html, body {
     background-color: lightgreen;
-    /*border: 1px solid black;*/
     font-size: 12px;
     margin: 0px;
     height: 100%;
@@ -43,14 +42,6 @@ main {
     height: 70%;
     display: flex;
     flex: auto;
-    /*position: sticky;*/
-    /*width: 1000px;*/
-    /*max-width: 100%;*/
-    /*height: 350px;*/
-    /*max-height: 60%;*/
-    /*background: magenta;*/
-    /*display: flex;*/
-    /*flex: auto;*/
 }
 
 nav {
@@ -68,7 +59,7 @@ nav > .top-menu {
 
 nav > .top-menu > li {
     list-style-type: none;
-
+    background-color: cyan;
     border: 1px solid blue;
     color: black;
     text-align: left;
@@ -91,14 +82,8 @@ nav > ul {
 }
 
 #main-section1 {
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-    /*height: 70%;*/
-    /*position: relative;*/
-    /*flex-wrap: wrap;*/
     flex-flow: row wrap;
     height: 70%;
-    /*box-sizing: border-box;*/
     position: relative;
 
     display: flex;
@@ -121,7 +106,6 @@ nav > ul {
 }
 
 .box1 > p {
-    /*text-align: center;*/
     margin: 0 auto;
 
 }
@@ -138,10 +122,7 @@ nav > ul {
     width: 160px;
     margin-top: 45px;
     margin-left: 20px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 40px;
-    padding-bottom: 10px;
+    padding: 10px 40px 10px 10px;
     text-align: left;
     float: left;
     display: table-cell;
@@ -150,16 +131,12 @@ nav > ul {
 }
 
 .box2 > p {
-    text-align: center;
+    margin: 0 auto;
 }
 
 footer {
-    /*width: 100%;*/
-    /*height: 10%;*/
-    /*border: 1px solid black;*/
     height: 10%;
     width: 100%;
-    /*max-width: 100%;*/
     display: block;
     bottom: 0;
 }
@@ -169,8 +146,6 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     position: relative;
-    /*align-items:flex-start;*/
-    /*justify-content:flex-start;*/
     background-color: yellow;
 
     justify-content: center;
