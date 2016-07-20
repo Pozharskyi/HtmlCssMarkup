@@ -112,26 +112,26 @@ nav > ul {
 
 .main-section2 {
     position: relative;
+    display: table;
     background: #9696bf;
-    display: block;
     height: 30%;
     width: 100%;
 }
 
 .box2 {
-    width: 160px;
-    margin-top: 45px;
-    margin-left: 20px;
-    padding: 10px 40px 10px 10px;
-    text-align: left;
-    float: left;
     display: table-cell;
     vertical-align: middle;
-    border: 1px solid black;
+    width: 20%;
+    margin: 2%;
+    padding: 2%;
 }
 
 .box2 > p {
-    margin: 0 auto;
+
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 15px;
 }
 
 footer {
@@ -140,6 +140,7 @@ footer {
     display: block;
     bottom: 0;
 }
+
 .footer-section1 {
 
     display: flex;
@@ -147,11 +148,11 @@ footer {
     flex-wrap: nowrap;
     position: relative;
     background-color: yellow;
-
     justify-content: center;
     align-items: center;
 
 }
+
 .footer-box {
     height: 13px;
     margin: 0px;
@@ -162,15 +163,18 @@ footer {
     padding: 20px;
     position: relative;
 }
+
 .footer-box > p {
     margin: 0 auto;
 }
+
 .footer-section2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.box1:nth-child(2n)::before{
+
+.box1:nth-child(2n)::before {
 
     content: '';
     width: 110px;
@@ -179,6 +183,6 @@ footer {
     margin-left: 100px;
     margin-top: -12px;
     position: absolute;
-    border:3px solid rebeccapurple;
+    border: 3px solid rebeccapurple;
 
 }
